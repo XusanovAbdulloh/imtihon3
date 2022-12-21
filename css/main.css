@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1440px;
+    height: 1024px;
+    background-color:#4499FE;
+    margin: auto;
+}
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 23px;
+    margin-bottom: 44px;
+}
+form{
+    width: 847px;
+    display: grid;
+    grid-template-columns: 297px 297px 297px;
+    margin-left: 231px;
+    gap: 30px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 297px;
+    padding: 17px 0;
+    outline: none;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.restaurant{
+    width: 622px;
+    padding: 17px 0;
+    outline: none;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+input::placeholder{
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 22px;
+     padding-left: 17px;
+}
+.btn{
+    width: 102px;
+    padding: 10px 34px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 194px;
+    background-color: #1DE755;
+}
+.div {
+    width: 1100px;
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    
+    margin: auto;
+}
+.items{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+}
+.ovkatIsmi{
+    margin-bottom: 10px;
+}
+.moneyy{
+    margin-bottom: 10px;
+}
+.cokeer{
+    margin-bottom: 10px;
+}
+.restaran{
+    margin-bottom: 10px;
+}
+.buttton{
+    padding: 10px 37px;
+    background-color: #F5D00D;
+}
+.divvvv{
+    background-color: #ffffff;
+}
